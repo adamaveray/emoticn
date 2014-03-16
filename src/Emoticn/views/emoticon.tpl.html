@@ -1,0 +1,49 @@
+{% extends "inc/template.tpl.html" %}
+
+{% set title = emoticon.name ~ " (" ~ platform.name ~ ")"  %}
+{% set page = "emoticon" %}
+{% block pageClasses %}
+	scheme-{{ emoticon.isDarkColor ? "dark" : "light" }}
+{% endblock %}
+
+{% block content %}
+<header class="details">
+	<h1 class="emoticon-name">{{ emoticon.name }}</h1>
+	<code class="emoticon-shortcut">{{ emoticon.shortcuts|first }}</code>
+</header>
+
+<figure class="emoticon-icon">
+	<img src="{{ emoticon.imageURL }}" />
+</figure>
+
+<footer class="emoticon-platform">
+	<a class="platform-name" href="{{ www }}/{{ platform.id }}">{{ platform.name }}</a>
+
+	<ul class="platform-emoticons">
+		{% for emoticon in platform.emoticons %}
+		<li class="platform-emoticon">
+			<a href="{{ emoticon.url }}">
+				<span class="platform-emoticon-name">{{ emoticon.name }}</span>
+				<figure class="platform-emoticon-icon">
+					<img src="{{ emoticon.imageURL }}">
+				</figure>
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
+</footer>
+{% endblock %}
+
+{% block styles %}
+{{ parent() }}
+<style>
+	body {
+		background-color:	#{{ emoticon.dominantColor }};
+	}
+
+	.emoticon-icon:before {
+		background-image:	url('{{ emoticon.imageURL }}');
+	}
+</style>
+{% endblock %}
+

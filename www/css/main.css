@@ -1,0 +1,361 @@
+@import "normalize.css";
+
+/* H5BP base */
+html,button,input,select,textarea{color: #222;}
+html{font-size:1em;line-height:1.4;}
+::-moz-selection{background:#b3d4fc;text-shadow:none;}
+::selection{background:#b3d4fc;text-shadow:none;}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}
+audio,canvas,img,video{vertical-align:middle;}
+fieldset{border:0;margin:0;padding:0;}
+textarea{resize:vertical;}
+
+.browsehappy {
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
+}
+
+/* ========================================================================== */
+
+.ir
+{background-color:transparent;border:0;overflow:hidden;*text-indent:-9999px;}
+	.ir:before
+	{content:"";display:block;width:0;height:150%;}
+
+.clearfix:before,
+.clearfix:after
+{content:" ";display:table;}
+
+	.clearfix:after
+	{clear:both;}
+
+	.clearfix
+	{*zoom:1;}
+
+.hidden
+{display:none!important;visibility:hidden;}
+
+.visuallyhidden
+{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus
+{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto;}
+
+.invisible
+{visibility:hidden;}
+
+/* ========================================================================== */
+
+
+body {
+	text-align:	center;
+}
+
+	[role="main"] {
+		max-width:	550px;
+		margin:		0 auto;
+	}
+
+a,
+a:visited {
+	color:	#007aff;
+	text-decoration:	none;
+}
+
+figure img {
+	max-width:	100%;
+	max-height:	100%;
+}
+
+.platforms,
+.platform-emoticons {
+	margin:		0;
+	padding:	0;
+	list-style:	none;
+	text-align:	center;
+	cursor:		default;
+}
+
+	.platform,
+	.platform-emoticon {
+		display:	inline-block;
+		margin:		0 0 0 5px;
+		vertical-align:	middle;
+	}
+
+		.platform:first-child,
+		.platform-emoticon:first-child {
+			margin-left:	0;
+		}
+
+	.platform-emoticon {
+		position:	relative;
+	}
+
+		.platform-emoticon-name {
+			position:		absolute;
+			display:		none;
+			padding:		2px 6px;
+			margin-bottom:	3px;
+			bottom:			100%;
+			left:			0;
+			background:		#000;
+			background:		rgba(0,0,0,0.9);
+			color:			#fff;
+			font-size:		12px;
+			white-space:	nowrap;
+			border-radius:	2px;
+		}
+
+			.platform-emoticon:hover .platform-emoticon-name {
+				display:	block;
+			}
+
+			.platform-emoticon-name:after {
+				content:		"";
+				display:		block;
+				position:		absolute;
+				top:			100%;
+				left:			50%;
+				margin-left:	-4px;
+				border:			solid 4px transparent;
+				border-top-color:	#000;
+				border-top-color:	rgba(0,0,0,0.9);
+			}
+
+	h1 {
+		font-family:	Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+		font-style:		italic;
+		font-size:		40px;
+	}
+
+/* Home page */
+	.site-name {
+		margin-bottom:	0;
+	}
+	.fake-tagline-or-whatever {
+		margin-top:		0;
+		margin-bottom:	2em;
+		color:		#999;
+	}
+
+	.platforms {
+	}
+
+		.platforms .platform {
+			margin-left:	18px;
+			margin-right:	18px;
+		}
+			.platforms .platform a {
+				display:	block;
+			}
+
+			.platforms .platform-icon {
+				margin:		0 auto;
+				max-width:	100px;
+				max-height:	100px;
+			}
+
+			.platforms .platform-name {
+				display:	block;
+				margin-top:	0.9em;
+			}
+
+		.platforms .add-platform a {
+			padding-top:	50px;
+			padding-bottom:	50px;
+			min-width:		125px;
+			border:		dashed 1px #ccc;
+			color:		#ccc;
+			border-radius:	10px;
+		}
+
+/* Platform page */
+	.page-platform .platform {
+		padding:	18px;
+	}
+
+		.platform-name {
+			margin:	0.6em 0 0 0;
+		}
+
+		.platform-description {
+			max-width:	550px;
+			margin-left:	auto;
+			margin-right:	auto;
+			font-style:		italic;
+			color:			#555;
+		}
+
+		.platform-details {
+			margin:		0;
+			padding:	0;
+			list-style:	none;
+		}
+
+			.platform-detail {
+				display:	inline-block;
+			}
+
+				.platform-detail:before {
+					content:	" • ";
+				}
+				.platform-detail:first-child:before {
+					content:	"";
+					display:	none;
+				}
+
+			.page-platform .platform-emoticons {
+				max-width:	550px;
+				margin:		2em auto 0 auto;
+			}
+
+				.page-platform .platform-emoticons .platform-emoticon {
+					margin:	5px 8px;
+				}
+
+
+/* Emoticons page */
+	.page-emoticon .details {
+		color:	#fff;
+	}
+
+		.page-emoticon.scheme-light .details {
+			color:	#000;
+		}
+
+		.emoticon-name {
+			margin-bottom:	0.3em;
+		}
+
+			.emoticon-name:before {
+				content:	"“";
+			}
+			.emoticon-name:after {
+				content:	"”";
+			}
+
+		.emoticon-shortcut {
+			display:	inline-block;
+		}
+
+
+	.emoticon-icon {
+		position:	absolute;
+		top:		0;
+		left:		0;
+		bottom:		0;
+		right:		0;
+	}
+
+		.emoticon-icon:after {
+			content:	"";
+			position:	absolute;
+			top:	0;
+			left:	0;
+			right:	0;
+			bottom:	0;
+			margin:	auto;
+			max-width:	500px;
+			max-height:	500px;
+			z-index:	2;
+			opacity:	1;
+			background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjAiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+			background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
+			background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,0)));
+			background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 100%);
+			background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 100%);
+			background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 100%);
+			background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 );
+		}
+		.emoticon-icon:before {
+			/* Bigger, blurred icon */
+			content:	"";
+			position:	absolute;
+			top:		0;
+			left:		0;
+			bottom:		0;
+			right:		0;
+			margin:		auto;
+			opacity:	0.7;
+			max-width:			600px;
+			max-height:			600px;
+			background-repeat:		no-repeat;
+			background-position:	center;
+			-moz-background-size:		contain;
+			-webkit-background-size:	contain;
+			background-size:			contain;
+
+			-moz-filter:	blur(20px);
+			-webkit-filter:	blur(20px);
+			filter:			blur(20px);
+		}
+
+		.emoticon-icon img {
+			display:	block;
+			position:	absolute;
+			top:		50%;
+			left:		0;
+			right:		0;
+			margin:		auto;
+			z-index:	3;
+			-moz-transform:		translateY(-50%);
+			-webkit-transform:	translateY(-50%);
+			transform:			translateY(-50%);
+		}
+
+	.emoticon-platform {
+		display:		block;
+		position:		fixed;
+		bottom:			0;
+		left:			0;
+		padding-top:	5px;
+		width:			100%;
+		height:			60px;
+		background:		#fff;
+		background:		rgba(255,255,255,0.85);
+		z-index:		4;
+	}
+
+		.emoticon-platform .platform-name {
+			position:	relative;
+			z-index:	5;
+			font-weight:		bold;
+			font-size:			14px;
+		}
+
+		.emoticon-platform .platform-emoticons {
+			display:		block;
+			position:		absolute;
+			left:			0;
+			bottom:			0;
+			right:			0;
+			padding:		20px 15px 10px 15px;
+			white-space:	nowrap;
+			overflow-x:		scroll;
+			overflow-y:		visible;
+			-webkit-overflow-scrolling:	touch;
+		}
+
+
+@media only screen and (min-height:	750px){
+	.page-platform .platform {
+		position:	absolute;
+		top:		50%;
+		left:		0;
+		right:		0;
+		margin-top:	-15px;
+		-moz-transform:		translateY(-50%);
+		-webkit-transform:	translateY(-50%);
+		transform:			translateY(-50%);
+	}
+}
+
+/* ========================================================================== */
+
+/* You can tell I really care about print for this... */
+@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:.5cm}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}}

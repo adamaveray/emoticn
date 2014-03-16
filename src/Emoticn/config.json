@@ -1,0 +1,21 @@
+{
+	"sitename":	"Emoticn",
+	"paths":	{
+		"src":				"",
+		"templates":		"views",
+		"data":				"..",
+		"platforms":		"../platforms",
+		"web":				"../../www",
+		"platformIcons":	"../../www/platforms",
+		"cache":			"../../cache"
+	},
+	"urls":	{
+		"root":				"",
+		"cdn":				"https://raw.github.com",
+		"platformIcons":	"https://raw.github.com/adamaveray/emoticn/master/www/platforms",
+		"_platformIcons":	"/platforms"
+	},
+	"analytics":	{
+		"_id":	"UA-XXXXX-X"
+	}
+}

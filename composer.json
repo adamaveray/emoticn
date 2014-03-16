@@ -1,0 +1,17 @@
+{
+	"require": {
+		"twig/twig":	"~1.15",
+		"aura/router":	"2.0.0-beta1"
+	},
+	"require-dev": {
+		"phpunit/phpunit":	"~3.7.0"
+	},
+	"config": {
+		"vendor-dir": "vendor"
+	},
+	"autoload": {
+		"psr-0": {
+			"Emoticn": "./src/"
+		}
+	}
+}

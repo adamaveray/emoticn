@@ -1,0 +1,6 @@
+{
+	"/":						"Home.index",
+	"/contribute":				"Home.contribute",
+	"/{platform}":				"Platform.index",
+	"/{platform}/{emoticon}":	"Platform.emoticon"
+}

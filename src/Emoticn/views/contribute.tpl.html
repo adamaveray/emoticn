@@ -1,0 +1,17 @@
+{% extends "inc/template.tpl.html" %}
+
+{% set title = "Contribute" %}
+{% set page = "contribute" %}
+
+{% block pageClasses %}content-page{% endblock %}
+
+{% block content %}
+{% set repoURL = "https://github.com/adamaveray/emoticn" %}
+<div role="main">
+	<h1>Contribute</h1>
+
+	<p>Everything happens on <a href="{{ repoURL }}">Github</a>. If you have an application you think has some <em>great</em> emoticons that should absolutely be here, <a href="{{ repoURL }}/issues/new">open an issue</a>, or better yet assemble all the images and send a pull request.</p>
+
+	<a href="{{ repoURL }}">View on Github</a>
+</div>
+{% endblock %}

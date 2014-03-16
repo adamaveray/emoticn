@@ -1,0 +1,24 @@
+{% extends "inc/template.tpl.html" %}
+
+{% set title = "Home" %}
+{% set page = "home" %}
+
+{% block content %}
+<h1 class="site-name">{{ config.sitename }}</h1>
+<p class="fake-tagline-or-whatever">Last decade had the best emoticons</p>
+<ul class="platforms">
+	{% for platform in platforms %}
+	<li class="platform">
+		<a href="{{ platform.url }}">
+			<figure class="platform-icon">
+				<img src="{{ platform.imageURL }}">
+			</figure>
+			<span class="platform-name">{{ platform.name }}</span>
+		</a>
+	</li>
+	{% endfor %}
+	<li class="platform add-platform">
+		<a href="/contribute">Suggest New</a>
+	</li>
+</ul>
+{% endblock %}

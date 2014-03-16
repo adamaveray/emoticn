@@ -1,0 +1,697 @@
+{
+	"name":			"MSN Messenger",
+	"image":		"msn.jpg",
+	"year":			1999,
+	"company":		"Microsoft",
+	"description":	"Later known as Windows Live Messenger, MSN Messenger was one of the most popular instant message clients in the world, with over 330 million active users at its peak before being discontinued in favour of Skype.",
+	"emoticons":	{
+		"ASL":	{
+			"name":		"ASL",
+			"image":	"ASL.png",
+			"shortcuts":	[
+				"(?)"
+			]
+		},
+		"Airplane":	{
+			"name":		"Airplane",
+			"image":	"Airplane.png",
+			"shortcuts":	[
+				"(ap)"
+			]
+		},
+		"Angel":	{
+			"name":		"Angel",
+			"image":	"Angel.png",
+			"shortcuts":	[
+				"(A)",
+				"(a)"
+			]
+		},
+		"Angry":	{
+			"name":		"Angry",
+			"image":	"Angry.png",
+			"shortcuts":	[
+				":@",
+				":-@"
+			]
+		},
+		"Auto":	{
+			"name":		"Auto",
+			"image":	"Auto.png",
+			"shortcuts":	[
+				"(au)"
+			]
+		},
+		"Baring teeth":	{
+			"name":		"Baring teeth",
+			"image":	"Baring teeth.png",
+			"shortcuts":	[
+				"8o|"
+			]
+		},
+		"Be right back":	{
+			"name":		"Be Right Back",
+			"image":	"Be right back.gif",
+			"shortcuts":	[
+				"(brb)"
+			]
+		},
+		"Birthday cake":	{
+			"name":		"Birthday cake",
+			"image":	"Birthday cake.png",
+			"shortcuts":	[
+				"(^)"
+			]
+		},
+		"Bowl":	{
+			"name":		"Bowl",
+			"image":	"Bowl.png",
+			"shortcuts":	[
+				"(||)"
+			]
+		},
+		"Boy":	{
+			"name":		"Boy",
+			"image":	"Boy.png",
+			"shortcuts":	[
+				"(Z)",
+				"(z)"
+			]
+		},
+		"Broken heart":	{
+			"name":		"Broken heart",
+			"image":	"Broken heart.png",
+			"shortcuts":	[
+				"(U)",
+				"(u)"
+			]
+		},
+		"Cabra":	{
+			"name":		"Goat",
+			"image":	"Cabra.png",
+			"shortcuts":	[
+				"(nah)",
+				"(NAH)"
+			]
+		},
+		"Cat face":	{
+			"name":		"Cat",
+			"image":	"Cat face.png",
+			"shortcuts":	[
+				"(@)"
+			]
+		},
+		"Cigar":	{
+			"name":		"Cigar",
+			"image":	"Cigar.png",
+			"shortcuts":	[
+				"(ci)"
+			]
+		},
+		"Clap":	{
+			"name":		"High Five",
+			"image":	"Clap.png",
+			"shortcuts":	[
+				"(h5)"
+			]
+		},
+		"Clock":	{
+			"name":		"Clock",
+			"image":	"Clock.png",
+			"shortcuts":	[
+				"(O)",
+				"(o)"
+			]
+		},
+		"Coffee cup":	{
+			"name":		"Coffee cup",
+			"image":	"Coffee cup.png",
+			"shortcuts":	[
+				"(C)",
+				"(c)"
+			]
+		},
+		"Computer":	{
+			"name":		"Computer",
+			"image":	"Computer.png",
+			"shortcuts":	[
+				"(co)",
+				"(pc)"
+			]
+		},
+		"Confused":	{
+			"name":		"Confused",
+			"image":	"Confused.png",
+			"shortcuts":	[
+				":S",
+				":s",
+				":-S",
+				":-s",
+				": S",
+				"S:"
+			]
+		},
+		"Cross Fingers":	{
+			"name":		"Cross Fingers",
+			"image":	"Cross Fingers.png",
+			"shortcuts":	[
+				"(yn)"
+			]
+		},
+		"Crying.gif":	{
+			"name":		"Crying",
+			"image":	"Crying.gif",
+			"shortcuts":	[
+				":'(",
+				";(",
+				":´(",
+				":´-(",
+				":,(",
+				":´)",
+				":`("
+			]
+		},
+		"Devil":	{
+			"name":		"Devil",
+			"image":	"Devil.png",
+			"shortcuts":	[
+				"(6)",
+				">:)",
+				">:D",
+				">: )",
+				">: D"
+			]
+		},
+		"Disappointed":	{
+			"name":		"Disappointed",
+			"image":	"Disappointed.png",
+			"shortcuts":	[
+				":|",
+				":-|"
+			]
+		},
+		"Dog face":	{
+			"name":		"Dog",
+			"image":	"Dog face.png",
+			"shortcuts":	[
+				"(&)"
+			]
+		},
+		"Don't tell anyone":	{
+			"name":		"Don't tell anyone",
+			"image":	"Don't tell anyone.png",
+			"shortcuts":	[
+				":#",
+				":-#",
+				"=#"
+			]
+		},
+		"Email":	{
+			"name":		"E-mail",
+			"image":	"Email.png",
+			"shortcuts":	[
+				"(E)",
+				"(e)"
+			]
+		},
+		"Embarrassed":	{
+			"name":		"Embarrassed",
+			"image":	"Embarrassed.png",
+			"shortcuts":	[
+				":$",
+				":-$",
+				"=$",
+				"::$",
+				": $",
+				"$$"
+			]
+		},
+		"Eye-rolling.gif":	{
+			"name":		"Eye-rolling",
+			"image":	"Eye-rolling.gif",
+			"shortcuts":	[
+				"8-)"
+			]
+		},
+		"Filmstrip":	{
+			"name":		"Filmstrip",
+			"image":	"Filmstrip.png",
+			"shortcuts":	[
+				"(~)"
+			]
+		},
+		"Gift":	{
+			"name":		"Gift",
+			"image":	"Gift.png",
+			"shortcuts":	[
+				"(G)",
+				"(g)"
+			]
+		},
+		"Girl":	{
+			"name":		"Girl",
+			"image":	"Girl.png",
+			"shortcuts":	[
+				"(X)",
+				"(x)"
+			]
+		},
+		"Grin":	{
+			"name":		"Open Mouthed",
+			"image":	"Grin.png",
+			"shortcuts":	[
+				":D",
+				":-D",
+				"=D",
+				": D"
+			]
+		},
+		"Handcuffs":	{
+			"name":		"Handcuffs",
+			"image":	"Handcuffs.png",
+			"shortcuts":	[
+				"(%)"
+			]
+		},
+		"Hot":	{
+			"name":		"Cool",
+			"image":	"Hot.png",
+			"shortcuts":	[
+				"(H)",
+				"(h)",
+				"B)",
+				"B-)",
+				"(HH)"
+			]
+		},
+		"I don't know.gif":	{
+			"name":		"I don't know",
+			"image":	"I don't know.gif",
+			"shortcuts":	[
+				":/",
+				":^)",
+				"=/",
+				"=l",
+				":\\",
+				"=\\",
+				":-/",
+				":%",
+				":-%",
+				"/:",
+				":2"
+			]
+		},
+		"Island":	{
+			"name":		"Island",
+			"image":	"Island.png",
+			"shortcuts":	[
+				"(ip)"
+			]
+		},
+		"Left hug":	{
+			"name":		"Left hug",
+			"image":	"Left hug.png",
+			"shortcuts":	[
+				"({)"
+			]
+		},
+		"Light bulb":	{
+			"name":		"Light bulb",
+			"image":	"Light bulb.png",
+			"shortcuts":	[
+				"(I)",
+				"(i)"
+			]
+		},
+		"Lightning.gif":	{
+			"name":		"Lightning",
+			"image":	"Lightning.gif",
+			"shortcuts":	[
+				"(li)"
+			]
+		},
+		"MSN":	{
+			"name":		"MSN Messenger Icon",
+			"image":	"MSN.png",
+			"shortcuts":	[
+				"(M)",
+				"(m)",
+				"(msn)",
+				"(MSN)"
+			]
+		},
+		"Martini":	{
+			"name":		"Martini",
+			"image":	"Martini.png",
+			"shortcuts":	[
+				"(D)",
+				"(d)"
+			]
+		},
+		"Mobile Phone":	{
+			"name":		"Mobile Phone",
+			"image":	"Mobile Phone.png",
+			"shortcuts":	[
+				"(mp)"
+			]
+		},
+		"Money":	{
+			"name":		"Money",
+			"image":	"Money.png",
+			"shortcuts":	[
+				"(mo)"
+			]
+		},
+		"Nerd":	{
+			"name":		"Nerd",
+			"image":	"Nerd.png",
+			"shortcuts":	[
+				"8-|",
+				":-B",
+				":B",
+				"=B",
+				"=b"
+			]
+		},
+		"Note":	{
+			"name":		"Note",
+			"image":	"Note.png",
+			"shortcuts":	[
+				"(8)"
+			]
+		},
+		"Party.gif":	{
+			"name":		"Party",
+			"image":	"Party.gif",
+			"shortcuts":	[
+				"<:o)"
+			]
+		},
+		"Pizza":	{
+			"name":		"Pizza",
+			"image":	"Pizza.png",
+			"shortcuts":	[
+				"(pi)"
+			]
+		},
+		"Plate":	{
+			"name":		"Plate",
+			"image":	"Plate.png",
+			"shortcuts":	[
+				"(pl)"
+			]
+		},
+		"Rainbow":	{
+			"name":		"Rainbow",
+			"image":	"Rainbow.png",
+			"shortcuts":	[
+				"(r)",
+				"(R)"
+			]
+		},
+		"Red lips":	{
+			"name":		"Red lips",
+			"image":	"Red lips.png",
+			"shortcuts":	[
+				"(K)",
+				"(k)"
+			]
+		},
+		"Red rose":	{
+			"name":		"Rose",
+			"image":	"Red rose.png",
+			"shortcuts":	[
+				"(F)",
+				"(f)"
+			]
+		},
+		"Right hug":	{
+			"name":		"Right hug",
+			"image":	"Right hug.png",
+			"shortcuts":	[
+				"(})"
+			]
+		},
+		"Sad":	{
+			"name":		"Sad",
+			"image":	"Sad.png",
+			"shortcuts":	[
+				":(",
+				":-(",
+				"=(",
+				"u.u",
+				"u_u",
+				"U.U",
+				"U_U",
+				": (",
+				"):",
+				")=",
+				":c",
+				":C",
+				"= (",
+				") :",
+				"´´"
+			]
+		},
+		"Sarcastic":	{
+			"name":		"Sarcastic",
+			"image":	"Sarcastic.png",
+			"shortcuts":	[
+				"^o)",
+				"1414",
+				"(oo)"
+			]
+		},
+		"Secret telling":	{
+			"name":		"Secret telling",
+			"image":	"Secret telling.png",
+			"shortcuts":	[
+				":*",
+				":-*"
+			]
+		},
+		"Sheep":	{
+			"name":		"Sheep",
+			"image":	"Sheep.png",
+			"shortcuts":	[
+				"(bah)",
+				"(BAH)"
+			]
+		},
+		"Sick":	{
+			"name":		"Sick",
+			"image":	"Sick.png",
+			"shortcuts":	[
+				"+o("
+			]
+		},
+		"Sleeping moon":	{
+			"name":		"Sleeping half-moon",
+			"image":	"Sleeping moon.png",
+			"shortcuts":	[
+				"(S)"
+			]
+		},
+		"Sleepy.gif":	{
+			"name":		"Sleepy",
+			"image":	"Sleepy.gif",
+			"shortcuts":	[
+				"|-)",
+				"I)",
+				"I-)",
+				"l-)"
+			]
+		},
+		"Smile":	{
+			"name":		"Happy",
+			"image":	"Smile.png",
+			"shortcuts":	[
+				":)",
+				":-)",
+				"=)",
+				":]",
+				"=]",
+				": )",
+				"(:",
+				"(="
+			]
+		},
+		"Snail":	{
+			"name":		"Snail",
+			"image":	"Snail.png",
+			"shortcuts":	[
+				"(sn)"
+			]
+		},
+		"Soccer ball":	{
+			"name":		"Soccer ball",
+			"image":	"Soccer ball.png",
+			"shortcuts":	[
+				"(so)"
+			]
+		},
+		"Star":	{
+			"name":		"Star",
+			"image":	"Star.png",
+			"shortcuts":	[
+				"(*)"
+			]
+		},
+		"Sticking Out Tongue":	{
+			"name":		"Tongue Out",
+			"image":	"Sticking Out Tongue.png",
+			"shortcuts":	[
+				":P",
+				":p",
+				":-P",
+				":-p",
+				":b",
+				"=P",
+				"=b",
+				"=p",
+				"=-p",
+				": P"
+			]
+		},
+		"Stormy cloud":	{
+			"name":		"Stormy cloud",
+			"image":	"Stormy cloud.png",
+			"shortcuts":	[
+				"(st)"
+			]
+		},
+		"Sun":	{
+			"name":		"Sun",
+			"image":	"Sun.png",
+			"shortcuts":	[
+				"(#)"
+			]
+		},
+		"Surprised":	{
+			"name":		"Surprised",
+			"image":	"Surprised.png",
+			"shortcuts":	[
+				":O",
+				":o",
+				":-O",
+				":-o",
+				"=o",
+				"=O",
+				"O:",
+				"O=",
+				"O=",
+				": O",
+				"O.O",
+				":0",
+				"=0"
+			]
+		},
+		"Telephone":	{
+			"name":		"Telephone receiver",
+			"image":	"Telephone.png",
+			"shortcuts":	[
+				"(T)",
+				"(t)"
+			]
+		},
+		"Thinking.gif":	{
+			"name":		"Thinking",
+			"image":	"Thinking.gif",
+			"shortcuts":	[
+				"*-)",
+				"*)"
+			]
+		},
+		"Turtle":	{
+			"name":		"Turtle",
+			"image":	"Turtle.png",
+			"shortcuts":	[
+				"(tu)"
+			]
+		},
+		"Umbrella":	{
+			"name":		"Umbrella",
+			"image":	"Umbrella.png",
+			"shortcuts":	[
+				"(um)"
+			]
+		},
+		"Vampire bat.gif":	{
+			"name":		"Vampire bat",
+			"image":	"Vampire bat.gif",
+			"shortcuts":	[
+				":[",
+				":-["
+			]
+		},
+		"Wilted rose":	{
+			"name":		"Wilted rose",
+			"image":	"Wilted rose.png",
+			"shortcuts":	[
+				"(W)",
+				"(w)"
+			]
+		},
+		"Wink.gif":	{
+			"name":		"Wink",
+			"image":	"Wink.gif",
+			"shortcuts":	[
+				";)",
+				";-)",
+				"o.<",
+				"O.<",
+				"o_<",
+				"O_<"
+			]
+		},
+		"XBox":	{
+			"name":		"XBox",
+			"image":	"XBox.png",
+			"shortcuts":	[
+				"(xx)"
+			]
+		},
+		"beer":	{
+			"name":		"Beer Mug",
+			"image":	"beer.png",
+			"shortcuts":	[
+				"(B)",
+				"(b)"
+			]
+		},
+		"camera":	{
+			"name":		"Camera",
+			"image":	"camera.png",
+			"shortcuts":	[
+				"(P)",
+				"(p)"
+			]
+		},
+		"heart":	{
+			"name":		"Heart",
+			"image":	"heart.png",
+			"shortcuts":	[
+				"(L)",
+				"(l)",
+				"<3"
+			]
+		},
+		"thdown":	{
+			"name":		"Thumbs down",
+			"image":	"thdown.png",
+			"shortcuts":	[
+				"(N)",
+				"(n)"
+			]
+		},
+		"thup":	{
+			"name":		"Thumbs up",
+			"image":	"thup.png",
+			"shortcuts":	[
+				"(Y)",
+				"(y)",
+				":Y"
+			]
+		}
+	}
+}

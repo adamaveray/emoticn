@@ -1,0 +1,32 @@
+{% extends "inc/template.tpl.html" %}
+
+{% set title = "Platform" %}
+{% set page = "platform" %}
+
+{% block content %}
+<div class="platform">
+	<figure class="platform-icon">
+		<img src="{{ platform.imageURL }}">
+	</figure>
+
+	<h1 class="platform-name">{{ platform.name }}</h1>
+	<ul class="platform-details">
+		<li class="platform-detail platform-detail-company">{{ platform.company }}</li>
+		<li class="platform-detail platform-detail-year">{{ platform.year }}</li>
+	</ul>
+	<p class="platform-description">{{ platform.description }}</p>
+
+	<ul class="platform-emoticons">
+		{% for emoticon in platform.emoticons %}
+		<li class="platform-emoticon">
+			<a href="{{ emoticon.url }}">
+				<span class="platform-emoticon-name">{{ emoticon.name }}</span>
+				<figure class="platform-emoticon-icon">
+					<img src="{{ emoticon.imageURL }}">
+				</figure>
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
+</div>
+{% endblock %}
